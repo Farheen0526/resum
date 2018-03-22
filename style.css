@@ -1,5 +1,14 @@
 body{
-  background: #fff;
+  background: #0e0b16;
+}
+table{
+  width: 95%;
+}
+td{
+  padding: 1%;
+}
+tr:nth-child(even){
+  background:#D3D3D3;
 }
 img{
   width:200px;
@@ -8,12 +17,25 @@ img{
   margin-left:auto;
   margin-right:auto;
 }
+h4{
+  text-align: center;
+}
 h2{
   text-align: center;
   text-transform: uppercase;
 }
 a{
   text-decoration: none;
+
+}
+.myclass{
+  text-align: center;
+}
+.img-cir{
+  width:40px;
+  height:auto;
+  border-radius: 50%;
+  display:inline;
 }
 .img-circle
 {
@@ -27,17 +49,22 @@ a{
 }
 .profile{
   width:30%;
-  background:#F8F8FF;
+  background:#e7dfdd;
+  height:40%;
+  border-radius: 20px;
   padding:2%;
   margin:1%;
   border:2px solid #000;
+  box-shadow: 3px 3px 3px #3f3250;
 }
 .content{
   width:70%;
-  background:#F8F8FF;
+  background:#F4DECB;
   padding:3%;
   margin:1%;
+  border-radius: 20px;
   border:2px solid #000;
+  box-shadow: 4px 4px 4px #fff;
 }
 @media only screen and (min-width:320px) and (max-width:480px)
 {
@@ -47,14 +74,14 @@ a{
   justify-content: center;
 }
 .profile{
-  width:95%;
+  width:91%;
   background:#fff;
   padding:2%;
   margin:1%;
   border:2px solid #000;
 }
 .content{
-  width:95%;
+  width:85%;
   background:#fff;
   padding:2%;
   margin:1%;
@@ -77,7 +104,7 @@ a{
 }
 .content{
   width:70%;
-  background:#fff;
+  background:#96858f;
   padding:3%;
   margin:1%;
   border:2px solid #000;
@@ -87,21 +114,46 @@ a{
 {
  .flex-parent{
   display:flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: center;
 }
 .profile{
-  width:30%;
+  width:94%;
   background:#fff;
   padding:2%;
   margin:1%;
   border:2px solid #000;
 }
 .content{
-  width:70%;
+  width:92%;
   background:#fff;
+  font-size: 30px;
   padding:3%;
   margin:1%;
   border:2px solid #000;
 }
 }
+/*
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+ .flex-parent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile{
+  width:95%;
+  background:#fff;
+  padding:2%;
+  margin:1%;
+  border:2px solid #000;
+}
+.content{
+  width:95%;
+  background:#fff;
+  padding:2%;
+  margin:1%;
+  border:2px solid #000;
+}
+}
+*/

@@ -1,0 +1,50 @@
+{
+  "career":{
+    "info":"To excel in my chosen field in a job that both challenges and inspires me, while pushing me to work to the best of my abilities and produce the highest quality work that I am capable of."
+  },
+  "education":[
+    {
+      "degree":"SSC",
+      "school":"Sri Lakshmi High School",
+      "data":["2013","93%"]
+    },
+    {
+      "degree":"Intermediate",
+      "school":"Sri Chaintanya junior College",
+      "data":["2013-2015","93%"]
+    },
+    {
+      "degree":"B-Tech(c.s.e)",
+      "school":"G.Pulliah College Of Engineering And Technology",
+      "data":["2015-2019","80%"]
+    }
+
+  ],
+
+  "skills" :[
+    {
+      "name":"Language",
+      "info":["R","C#","Java","Python","C++","C"]
+    },
+    {
+      "name":"Operating System",
+      "info":["windows-10","Fedora","RedHat","Ubuntu"]
+    },
+    {
+      "name":"Data Bases",
+      "info":["MySql","MongoDB","Oracle","PDO"]
+    },
+    {
+      "name":"Web Technology",
+      "info":["Java Script","Html","CSS"]
+    },
+    {
+      "name":"FrameWorks",
+      "info":[".Net","Bootstrap","CodeIgnotor"]
+    },
+    {
+      "name":"Libraries",
+      "info":["Jquery"]
+    }
+  ]
+}
